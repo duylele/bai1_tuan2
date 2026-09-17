@@ -45,3 +45,5 @@ $(BUILD_DIR):
 
 clean:
 	rm -rf $(BUILD_DIR)
+ flash:
+	st-flash write build/bai1_tuan2.bin 0x8000000
